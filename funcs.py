@@ -1,3 +1,7 @@
+#from telebot.credentials import bot_token, bot_user_name, URL
+#import telegram
+#from flask import Flask, request
+import re
 import wikipediaapi
 import requests
 from bs4 import BeautifulSoup
@@ -9,5 +13,5 @@ def get_page():
     html = requests.get(url)
     soup = BeautifulSoup(html.content, 'lxml')
     title = soup.find(class_="firstHeading").text
-    page = wiki_wiki.page(title)
-    return page
+    page = wiki_wiki.page(title) 
+    return f'{title}\n{page.fullurl}'
