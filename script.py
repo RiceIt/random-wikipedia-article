@@ -1,3 +1,5 @@
+import os
+
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.dispatcher import FSMContext
@@ -7,7 +9,7 @@ from aiogram.types import ReplyKeyboardRemove, \
     InlineKeyboardMarkup, InlineKeyboardButton
 
 
-token = '1728839487:AAEmQMeRNhJXWyAoGs9sr8w1IL3yDbEnQkA'
+token = os.environ["TOKEN"]
 
 # Initialize bot and dispatcher
 bot = Bot(token=token)
