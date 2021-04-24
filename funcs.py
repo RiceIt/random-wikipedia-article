@@ -1,7 +1,3 @@
-#from telebot.credentials import bot_token, bot_user_name, URL
-#import telegram
-#from flask import Flask, request
-import re
 import wikipediaapi
 import requests
 from bs4 import BeautifulSoup
