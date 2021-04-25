@@ -3,7 +3,8 @@
 
 Можно получать статьи на русском и английском языках.
 # Demo
-<img src="https://s3.gifyu.com/images/wikipedia_random_article_demo77eab363ea28d696.gif" width="400" height="711" />
+
+[![wikipedia_random_article_demo8b98decd51aee9c5.gif](https://s3.gifyu.com/images/wikipedia_random_article_demo8b98decd51aee9c5.gif)](https://gifyu.com/image/tUne)
 
 # Link
 
